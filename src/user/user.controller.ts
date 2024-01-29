@@ -7,7 +7,7 @@ import { LogInterceptor } from "src/interceptors/log.interceptors";
 import { ParamId } from "src/decorators/param-id.decorator";
 
 @Controller('users')
-export class UserController{
+export class UserController {
 
     constructor(private readonly userService: UserService) {}
 
